@@ -118,8 +118,6 @@ public class CompleteProfileActivity extends AppCompatActivity implements View.O
                                     customViewPager.setCurrentItem(1);
                                 } else {
                                     startActivityForResult(new Intent(CompleteProfileActivity.this, HomeActivity.class), RC_HOME);
-                                    ;
-
                                 }
 
                             }

@@ -142,8 +142,7 @@ public class SplashActivity extends BaseActivity implements FCMTokenInterface {
                             startActivityForResult(new Intent(SplashActivity.this, CompleteProfileActivity.class)
                                     , RC_COMPLETE_PROFILE);
                         } else {
-                            startActivity(new Intent(SplashActivity.this,HomeActivity.class));
-
+                            startActivity(new Intent(SplashActivity.this, HomeActivity.class));
                         }
                     }
                 }

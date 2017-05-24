@@ -66,10 +66,18 @@ public final class CommonData implements PaperDbConstant {
         Paper.book().destroy();
         updateFCMToken(deviceToken);
     }
-    public static void saveUserDetail(final UserDetails userDetails){
-Paper.book().write("data",userDetails);
+
+    /**
+     * @param userDetails userinfo
+     */
+    public static void saveUserDetail(final UserDetails userDetails) {
+        Paper.book().write("data", userDetails);
     }
-    public static UserDetails getUserDetail(){
+
+    /**
+     * @return userdetails
+     */
+    public static UserDetails getUserDetail() {
         return Paper.book().read("data");
     }
 }
