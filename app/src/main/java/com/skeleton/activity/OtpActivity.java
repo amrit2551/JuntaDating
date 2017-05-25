@@ -165,7 +165,7 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
                     Log.e("debug", "OTP resend.");
                 } else {
                     Log.e("debug", "OTP resend failed in Sucess.");
-                }gi
+                }
             }
 
 
