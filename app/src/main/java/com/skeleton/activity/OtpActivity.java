@@ -113,6 +113,7 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
 
     }
 
+
     /**
      * to verifyotp
      */
@@ -132,7 +133,7 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
                     intent = new Intent(OtpActivity.this, CompleteProfileActivity.class);
                     startActivity(intent);
                 } else {
-                    intent = new Intent(OtpActivity.this, CompleteProfileActivity.class);
+                    intent = new Intent(OtpActivity.this, EditNumberActivity.class);
                     startActivity(intent);
                 }
             }

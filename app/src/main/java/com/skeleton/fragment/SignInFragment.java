@@ -1,5 +1,7 @@
 package com.skeleton.fragment;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -8,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.skeleton.R;
+import com.skeleton.database.CommonData;
 import com.skeleton.modal.signupResponse.TheResponse;
 import com.skeleton.retrofit.APIError;
 import com.skeleton.retrofit.CommonParams;
@@ -81,6 +84,11 @@ public class SignInFragment extends BaseFragment {
             @Override
             public void success(final TheResponse theResponse) {
                 Log.i("app", "success");
+                CommonData.saveAccessToken(theResponse.getData().getAccessToken());
+                CommonData.saveUserDetail(theResponse.getData().getUserDetails());
+                getActivity().setResult(Activity.RESULT_OK, new Intent());
+                getActivity().finish();
+
             }
 
             @Override
