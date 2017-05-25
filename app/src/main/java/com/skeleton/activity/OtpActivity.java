@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.skeleton.R;
 import com.skeleton.database.CommonData;
 import com.skeleton.modal.signupResponse.TheResponse;
+import com.skeleton.modal.signupResponse.UserDetails;
 import com.skeleton.retrofit.APIError;
 import com.skeleton.retrofit.ApiInterface;
 import com.skeleton.retrofit.CommonParams;
@@ -20,8 +21,6 @@ import com.skeleton.retrofit.ResponseResolver;
 import com.skeleton.retrofit.RestClient;
 import com.skeleton.util.ValidateEditText;
 import com.skeleton.util.customview.MaterialEditText;
-
-import io.paperdb.Paper;
 
 /**
  * otp activity
@@ -31,6 +30,7 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
     private TextView tvPhoneNumberEdit, tvResendOTP, tvPhoneNumber;
     private Button btnVerify, btnSkip;
     private ValidateEditText validateEditText;
+    private UserDetails userDetails;
     private Intent intent = getIntent();
 
     @Override
@@ -38,7 +38,7 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp);
         init();
-        tvPhoneNumber.setText(Paper.book().read("keycode") + "-" + Paper.book().read("keynumber"));
+        tvPhoneNumber.setText(userDetails.getCountryCode() + "-" + userDetails.getPhoneNo());
         btnVerify.setOnClickListener(this);
         btnSkip.setOnClickListener(this);
     }
@@ -119,8 +119,8 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
      */
     private void chckOtp() {
         CommonParams params = new CommonParams.Builder()
-                .add(USER_COUNTRY_CODE, Paper.book().read("country code"))
-                .add(USER_PHONE, Paper.book().read("phone"))
+                .add(USER_COUNTRY_CODE, userDetails.getCountryCode())
+                .add(USER_PHONE, userDetails.getPhoneNo())
                 .add("otpc", etFirst.getText().toString()
                         + etSecond.getText().toString()
                         + etThird.getText().toString()
@@ -148,7 +148,7 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
 
     @Override
     protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
-        tvPhoneNumber.setText(Paper.book().read(USER_COUNTRY_CODE) + "-" + Paper.book().read("+91"));
+        tvPhoneNumber.setText(userDetails.getCountryCode() + "-" + userDetails.getPhoneNo());
     }
 
 
@@ -165,7 +165,7 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
                     Log.e("debug", "OTP resend.");
                 } else {
                     Log.e("debug", "OTP resend failed in Sucess.");
-                }
+                }gi
             }
 
 
