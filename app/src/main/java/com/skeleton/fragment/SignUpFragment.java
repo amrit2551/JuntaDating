@@ -95,7 +95,7 @@ public class SignUpFragment extends BaseFragment {
 
         editTextName = (MaterialEditText) view.findViewById(R.id.etName);
         editTextPhone = (MaterialEditText) view.findViewById(R.id.etPhoneNum);
-        //ivdisplaypicture = (ImageView) view.findViewById(R.id.iv_Dp);
+        ivdisplaypicture = (ImageView) view.findViewById(R.id.iv_Dp);
         editTextEmail = (MaterialEditText) view.findViewById(R.id.etEmail);
         editTextDOB = (MaterialEditText) view.findViewById(R.id.etDOB);
         editTextPassword = (MaterialEditText) view.findViewById(R.id.etPassword);
@@ -106,7 +106,7 @@ public class SignUpFragment extends BaseFragment {
         checkBox = (CheckBox) view.findViewById(R.id.cb_termsncond);
         btnSignUp = (Button) view.findViewById(R.id.btnSignUp);
         btnSignUp.setOnClickListener(this);
-        //ivdisplaypicture.setOnClickListener(this);
+        ivdisplaypicture.setOnClickListener(this);
         radioButtonFemale.setChecked(true);
         gender = 1;
     }
