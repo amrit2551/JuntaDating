@@ -121,7 +121,7 @@ public class SignUpFragment extends BaseFragment {
                     post();
                 }
                 break;
-            case R.id.ivProfilePic:
+            case R.id.iv_Dp:
                 selectImage();
                 break;
             default:
