@@ -18,6 +18,8 @@ import android.widget.RadioGroup;
 import com.bumptech.glide.Glide;
 import com.kbeanie.multipicker.api.entity.ChosenImage;
 import com.skeleton.R;
+import com.skeleton.activity.OtpActivity;
+import com.skeleton.database.CommonData;
 import com.skeleton.modal.signupResponse.TheResponse;
 import com.skeleton.retrofit.APIError;
 import com.skeleton.retrofit.MultipartParams;
@@ -185,11 +187,12 @@ public class SignUpFragment extends BaseFragment {
                 .add("language", "EN")
                 .add("deviceType", "ANDROID")
                 .addFile("profilePic", imagefile).build();
-        RestClient.getApiInterface().register(params.getMap()).enqueue(new ResponseResolver<TheResponse>(getContext(), true) {
+        RestClient.getApiInterface().register(params.getMap()).enqueue(new ResponseResolver<TheResponse>(getContext(), true, true) {
             @Override
-            public void success(final TheResponse registerResponse) {
-                Paper.book().write("accesstoken", "bearer " + registerResponse.getData().getAccessToken());
-                Log.i("app", "success");
+            public void success(final TheResponse theResponse) {
+                CommonData.saveAccessToken(theResponse.getData().getAccessToken());
+                CommonData.saveUserDetail(theResponse.getData().getUserDetails());
+                getActivity().startActivityForResult(new Intent(getActivity(), OtpActivity.class), RC_OTP);
             }
 
             @Override

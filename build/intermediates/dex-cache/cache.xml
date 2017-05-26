@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/24ea2f283349c06e16111ee893c84fd4f408b646/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_851d87dc334fde2fdd0ec49418569f8c79faf06c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/okhttp-3.6.0_247b4e1c2ea3dfa31f3c85ad15e0aea43c7cb3e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/cc628f8b83538529f78ca1e678d4112b2c90e840/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_ddc1a40ea168f1115485662b0000b99d1b99ee57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/bolts-applinks-1.4.0_d52c95c2fe83ec4fdaab9d9545a915692851f221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/1c4eb4dd70d233a1be70ccbe3c9372f17bb5af1b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_2bc3eb12ec96e52fca23fd2c47065f6608556e5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/4b671c0a1bb2849f2bf64c364caf49e8976f911d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_71cefb39997190441c948402b455b7f0fc3191a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/android-studio/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0da08b8cce7bbf903602a25a3a163ae252435795">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/asm-5.0.4_0fcc6a33b1b8a56e3511320a54700f4822c4a9aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/cb418ba9a7b0eabe57bc41916e3abe152396b2c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_36bd1ac88c2b947c0a1b0581d518a40123005955.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/3bd841d589cf352f1a30e30cef7d48df16f29eb6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_b24845f222d6504d88343a15a83b9f39abb0edf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/6e189d03771d670e7cf7b2512efed97b485d10a9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_dd12eb3e16f0e3ae601c9e2fe30c6dfbe2628d6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/36069b79c31d671eec57aac80b951662883a2b59/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_1922155bce7582b41aada56873105ff8449f52a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/ad9590339e57ba5721260abd8c27ee91757aa2c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_d47968879a26361d82400a9997935709ba12d20c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/gson-2.7_9dba450a1f4d2ab2b7e31204409c888e9ffb4b0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/205b755325789dfcdd6848b69deae495ecab5d73/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_26b5e9e31ffe9a005d5cacd4f3b3e44b4e895038.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/7ddaf331e9148242d5fc81ec6526eeac6d5d5ad6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e6f42a8ca1c99ed39a0622cfb6ac827b9667a4f5">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_6f41605b63e9ea258985f97fc450ff862a2bc983.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/minlog/1.3.0/ff07b5f1b01d2f92bb00a337f9a94873712f0827/minlog-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff07b5f1b01d2f92bb00a337f9a94873712f0827">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/minlog-1.3.0_e8fcb70ff638f03dbd4e7fc6a10fb327c8d546e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/e9dcf71eb0e29aee51b3bf6308fa2425294507d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_caedda9a7e575444978ad43faa4b9eaad332e969.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/fd8d170813f3df25275823290125bbbfcdb0fead/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_6e887ac57ce1e3d9b7cc303bbd648bf33638d4d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/constraint-layout-solver-1.0.2_1a3855a34da2ff1f9ca1fe12f26a54f7ba58f7db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/de.javakaffee/kryo-serializers/0.40/562cb61898302da4e8d3fd141c821edb1bc6b36d/kryo-serializers-0.40.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="562cb61898302da4e8d3fd141c821edb1bc6b36d">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/kryo-serializers-0.40_bda0b2b003f9f2353b504e74a96fc2f734c7dd97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/96880ea1c05cae4538c690c615f19c679da7a8ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_d3ec86e9b580e15d01d92befe97b8c707793c318.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.3/640a438d2d415c056ca6a673ac26b183b044e160/haha-2.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="640a438d2d415c056ca6a673ac26b183b044e160">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/haha-2.0.3_0689c73017b96f079f8c20a85e01049d3a6366a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/glide-3.7.0_d0a6201cf413a5a2231facaca23c7a56f285cc5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/retrofit-2.2.0_3113963a9c8628f381b07ead3041f057a23dab8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/5892398445f597442f499d2f42a077e969b7fd57/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a70160a70685ce25bda1c6e094c73676a399039">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_1ef6b276ba2077f285b1b0b33373f079f79690eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/dd5b254cd43eef642417558e7f52b569b6466bbc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_c71150b3655d640d891b567d5b8fb0fbfef1a433.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/6352fe44558d4a255eda25b775c488c1003388eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_6a2e9bb0182aba69825b1f77f323ed34af3ed91f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09926806199499a20b2f5168779499abfa33342">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/converter-gson-2.2.0_d1f95881ec0a5eb59fbfb67af34f6d8d0e122474.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/8cbecd5b8dc5d3334173ebae04bbf38e56ded91e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_e4e7118c4b6fedea6f163ddf3b5560bdd40136f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/2d9f0dfefe7a531c5dec6f7dcb519a4dac6b3056/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_99fc04ed01f8696110d2cf972a62f0dce05aef7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/support-annotations-25.3.1_744f6dbdf461b6d9c14264a2474516ae05bc23f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.5/288101b16513158c2923ad3fb6161d1452b65e73/leakcanary-watcher-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="288101b16513158c2923ad3fb6161d1452b65e73">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/leakcanary-watcher-1.5_698f60f8dfe9e4c1a5ac3b18825defdb04a77723.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/55a1abf039eea0428688532319f9e9ea46a6bac9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_eeb8413a5389039d16f3bafd74132d0612e1263e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/604b344084fefe6c8fb1989579c4ed097dc7ca28/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_b966225720019227cf7c70a664e4fd01aa039db4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/71f4dfe65a0b84badccdcb1f5957fd7adf337bf1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_72a5e6d871ed59ef5deeb2b00f4b1fa30998b82a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.2/3fb533efdaa50a768c394aa4624144cf8df17845/objenesis-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3fb533efdaa50a768c394aa4624144cf8df17845">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/objenesis-2.2_2f79f5a4411916e6dd8f307d1ca204c7df2ab37b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.5/3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f/leakcanary-analyzer-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/leakcanary-analyzer-1.5_2ae7e9e43e8e5c2501025268679ff35a4c8b1ae4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/d3235e08ed9fbc709856c2260bd1572c342c45c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_e782c9934758075599d81463ce931f48c33cd7f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/74a21473746e9ab42b111aec3676f63bb5eea670/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_4b0bd3e77d884694419df1b1314e1e0a462e812a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/picasso-2.5.2_511aea74988291556a2bf3191bf701a5bdab914c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/logging-interceptor-3.6.0_0edf46bc26fa084bfef88698f8404a20af551d41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/bolts-tasks-1.4.0_56aca3d0508bb671d280772b5f774fe9b1533b1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/cbb2e00b17b81dc8d2623df592b9f130d3193a3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d6c3241991f0b856671273fccffabb0e8003c69">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_361c1583f2a3baa526bebf7b1642cc4da3540714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/6da3971022eeb9d2cb3358e43b08eb529eff0553/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_a4158d54eac450d4bf6c28dc1756b8c024906bc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/okio-1.11.0_7e08633f593369895e09e4131c9dbe7f72b1b638.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/52046d9e158e1ec46da0ca9aefc8269ab810c513/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_c1be2dfff8c209b709be7c1d71d13fe8553c0af9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo/4.0.0/9f5c64c1315ec79bee0f56bb88e4ae94b65048ce/kryo-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f5c64c1315ec79bee0f56bb88e4ae94b65048ce">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/kryo-4.0.0_3aa992404775475c1cf31ca2914a7f2b962ae863.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/5e17272495af15e9a8c69e41ce416654fc63c6a2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_c1207d4443018c2e00af5b0f0c6d1231b23cf01a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/reflectasm/1.11.3/8b102eed2f12412b254946811111ea48bc03a266/reflectasm-1.11.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b102eed2f12412b254946811111ea48bc03a266">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/reflectasm-1.11.3_1ab26c2da98ab2ef16b7e18f9a7040d979060aaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/202d935d48c194c87038fa7589206a8479a4f341/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7a2672b3122b897a0751f327929ae405ea02bf7">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_2cd645e09f12e2bb5f20853a163fdf909ca57d43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/91101f75f406e893bc844a9872ea0d6ee833236f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d594befb390f7c12b9b460f7c64805a635f2ced9">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_2d384271c5a3a54c36df46a4dd9e7ceb6efd46e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/a289f7f472a4ddfe24f22d16af9c498b34f9175a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_38099dfaf25343f21534135d07dbcb51a4eaf49f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/admin23/.android/build-cache/3203ff3f1a43da533aa3e1492dfb959d1734b69c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/admin23/JuntaDating/app/build/intermediates/pre-dexed/DEV/debug/classes_e1856b4d897bd40d98b30345f240833ac045a1a9.jar" />
+    </item>
+
+</items>

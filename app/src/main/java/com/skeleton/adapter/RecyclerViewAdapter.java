@@ -22,7 +22,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
  */
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
-    private int count = 0;
+    private static int count = 0;
     private List<Category> categoryList;
     private Context context;
     private ArrayList<String> arrayList = new ArrayList<>();
@@ -52,6 +52,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(final ViewHolder holder, final int position) {
         final Category category = categoryList.get(position);
         holder.mtvInterest.setText(category.getName());
+        if (category.getChecked()) {
+            holder.ivcheck.setImageResource(R.drawable.check_mark);
+            holder.ivBlur.setImageResource(R.color.transparent);
+        } else {
+            holder.ivcheck.setImageDrawable(null);
+            holder.ivBlur.setImageDrawable(null);
+        }
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
@@ -103,9 +110,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
          */
         public ViewHolder(final View itemView) {
             super(itemView);
-//            mtvInterest = (TextView) itemView.findViewById(R.id.tvInterest);
-//            ivBlur = (CircleImageView) itemView.findViewById(R.id.iv_image_blur);
-//            ivcheck = (CircleImageView) itemView.findViewById(R.id.iv_check_mark);
+            mtvInterest = (TextView) itemView.findViewById(R.id.tvInterest);
+            ivBlur = (CircleImageView) itemView.findViewById(R.id.iv_image_blur);
+            ivcheck = (CircleImageView) itemView.findViewById(R.id.iv_check_mark);
         }
 
 

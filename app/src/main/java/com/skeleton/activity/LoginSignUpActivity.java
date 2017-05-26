@@ -1,5 +1,6 @@
 package com.skeleton.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -52,5 +53,22 @@ public class LoginSignUpActivity extends BaseActivity {
     public void onBackPressed() {
         super.onBackPressed();
         finish();
+    }
+
+    /**
+     * @param requestCode req code
+     * @param resultCode  result code
+     * @param data        data
+     */
+    @Override
+    protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK) {
+            if (requestCode == RC_OTP) {
+                Intent intent = new Intent(this, CompleteProfileActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }
     }
 }

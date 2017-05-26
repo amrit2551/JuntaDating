@@ -129,13 +129,16 @@ public class OtpActivity extends BaseActivity implements TextWatcher, View.OnCli
         apiInterface.chckOtp("bearer " + CommonData.getAccessToken(), params.getMap()).enqueue(new ResponseResolver<TheResponse>(this, true) {
             @Override
             public void success(final TheResponse theResponse) {
-                if ("200".equals(theResponse.getStatusCode())) {
-                    intent = new Intent(OtpActivity.this, CompleteProfileActivity.class);
-                    startActivity(intent);
-                } else {
-                    intent = new Intent(OtpActivity.this, EditNumberActivity.class);
-                    startActivity(intent);
-                }
+//                if ("200".equals(theResponse.getStatusCode())) {
+//                    intent = new Intent(OtpActivity.this, CompleteProfileActivity.class);
+//                    startActivity(intent);
+//                } else {
+//                    intent = new Intent(OtpActivity.this, EditNumberActivity.class);
+//                    startActivity(intent);
+//                }
+
+                setResult(RESULT_OK);
+                finish();
             }
 
             @Override

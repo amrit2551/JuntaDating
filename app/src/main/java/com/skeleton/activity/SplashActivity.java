@@ -120,7 +120,7 @@ public class SplashActivity extends BaseActivity implements FCMTokenInterface {
         Log.e(TAG, token);
         String accessToken = CommonData.getAccessToken();
         nextStep(accessToken);
-//        finish();
+        finish();
     }
 
     /**

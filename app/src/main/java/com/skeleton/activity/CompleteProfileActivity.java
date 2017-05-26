@@ -117,7 +117,8 @@ public class CompleteProfileActivity extends AppCompatActivity implements View.O
                                 if (customViewPager.getCurrentItem() != 1) {
                                     customViewPager.setCurrentItem(1);
                                 } else {
-                                    startActivityForResult(new Intent(CompleteProfileActivity.this, HomeActivity.class), RC_HOME);
+                                    setResult(RESULT_OK);
+                                    finish();
                                 }
 
                             }
@@ -140,7 +141,15 @@ public class CompleteProfileActivity extends AppCompatActivity implements View.O
                 break;
         }
     }
+    @Override
+    protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+        if (requestCode == RC_HOME && resultCode == RESULT_OK) {
+            finish();
+
+        }
+    }
 }
+
 
 
 
